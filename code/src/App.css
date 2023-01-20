@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  
+  justify-content: center;
+}
+.card {
+  width: 700px;
+  height: 60px;
+  
+  padding-top: 0;
+  text-align: center;
+  display: flex;
+  
+}
+
+.card-header {
+  background-color: navy !important;
+  color: white !important;
+  width: 100%;
+}
+.list {
+  text-align: justify;
+  flex-wrap: wrap;
+  margin-right: 25px;
+}
+.btn {
+  width: 144px;
+  height: 30px;
+  border-radius: 33px !important;
+  background-color: midnightblue !important;
+  border: none !important;
+  text-align: center !important;
+  padding-bottom: 25px !important;
+  padding-top: 2px !important;
+}
